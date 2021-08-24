@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+
+}
+
+
+.media{
+	background-color: black;
+	color:white;
+	position: fixed;
+	width: 100%;
+	padding-left: 130px;
+    top: 0;
+    left: 0;
+    height: 25px;
+}
+.right-content{
+	float: right;
+	color: white;
+	font-size: 20px; 
+	padding-right: 200px;
+
+}
+.right-content a{
+	text-decoration: none;
+	color: white;
+}
+.container1{
+	
+
+	height: 50px;
+	width: 100%;
+	margin-top: 6px;
+	padding: 15px;
+
+
+
+}
+.logo{
+	float: left;
+	margin-left: 90px;
+	padding-top: 20px;
+	color: crimson;
+	text-shadow: 2px 2px darkblue;
+	
+
+}
+.nav{
+	float: right;
+	padding-top: 30px;
+	margin-right: 130px;
+
+}
+.nav a{
+	padding: 10px;
+	text-decoration: none;
+	font-family: serif;
+	color: darkblue;
+	font-weight: bold;
+
+
+}
+
+.nav a:hover{
+	color: white;
+	background-color: black;
+}
+
+.nav button{
+
+ width: 80px;
+ height: 30px;
+ color: white;
+ background-color: green;
+border: 1px solid black;
+border-radius: 6px;
+
+}
+
+.header{
+
+background-image:url("music9.webp");
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 1;
+margin-left: 30px;
+margin-right: 30px;
+
+width: 95%;
+height: 600px;
+
+margin-top: 10px;
+
+}
+
+.desc{
+	position: absolute;
+	left: 8%;
+	top: 45%;
+	
+	padding: 5px;
+}
+
+.desc h3{
+	color: darkblue;
+	font-family: Apple chancery,cursive;
+	
+	font-size: 25px;
+	padding: 3px;
+
+}
+.desc p{
+	padding: 3px;
+	
+	font-family:serif;
+	
+}
+.desc button{
+	border-radius: 5px;
+	border: 2px solid black;
+	height: 40px;
+	width: 100px;
+	text-align: center;
+	font-family: cursive;
+	color: black;
+	background-color: seagreen;
+	color: black;
+	font-weight: bold;
+	padding: 5px;
+	margin-top: 5px;
+ 
+
+}
+
+.desc button:hover{
+	border: 2px solid black;
+	width: 120px;
+	height: 50px;
+	color: black;
+	background-color:cornsilk;
+
+}
+
+.blog{
+	
+	text-align: center;
+	
+}
+
+.blog h1{
+	font-family: cursive;
+	padding-top: 5px;
+	color: darkblue;
+}
+.row::after{
+	clear: both;
+	display:none;
+	content: "";
+
+}
+.col-25{
+	width: 25%;
+	float: left;
+	margin-top: 6px;	
+}
+
+
+
+.col-25 h4{
+	color: crimson;
+
+}
+
+
