@@ -1,0 +1,8 @@
+
+.card{
+	background-image: url("./images/bid2.jpg") ;
+	background-size: cover;
+	
+	
+	position: absolute;
+}

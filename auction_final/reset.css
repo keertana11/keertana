@@ -1,0 +1,45 @@
+*
+{
+padding:0;
+margin:0;
+}
+body
+{
+	background-image:url(reset.jpg);
+	background-size:cover;
+	font-family:sans-serif;
+}
+.resetbox{
+width:320px;
+height:420px;
+background:cover;
+color:white;
+top:50%;
+left:50%;
+position:absolute;
+transform:translate(-50%,-50%);
+box-sizing:border-box;
+padding:70px 30px;
+}
+h1{
+margin: 0;
+padding: 0 0 20px;
+text-align:center;
+font-size: 22px;
+}
+.resetbox p{
+margin: 0;
+padding: 0 ;
+font-weight:bold;
+}
+.resetbox input
+{
+width:100%;
+margin-bottom:20px;
+}
+.resetbox a{
+text-decoration:none;
+font-sie:12px;
+line-height:20px;
+color:darkgrey;
+}

@@ -1,0 +1,45 @@
+*
+{
+padding:0;
+margin:0;
+}
+body
+{
+	background-image:url(register.jpeg);
+	background-size:cover;
+	font-family:sans-serif;
+}
+.registerbox{
+width:350px;
+height: 1400px;
+
+color:white;
+top:50%;
+left:50%;
+position:absolute;
+transform:translate(-50%,-50%);
+box-sizing:border-box;
+padding:60px 20px;
+}
+.registerbox h1{
+margin: 0;
+padding: 0 0 30px;
+text-align:center;
+font-size: 22px;
+}
+.registerbox p{
+margin: 0;
+padding: 0 ;
+font-weight:bold;
+}
+.registerbox input
+{
+width:100%;
+margin-bottom:20px;
+}
+.registerbox a{
+text-decoration:none;
+font-sie:12px;
+line-height:30px;
+color:darkgrey;
+}
